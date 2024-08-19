@@ -5,7 +5,7 @@
             "Sid": "uploadlogs",
             "Effect": "Allow",
             "Principal": {
-                "Service": "logs.us-east-1.amazonaws.com"
+                "Service": "logs.ap-south-1.amazonaws.com"
             },
             "Action": "s3:GetBucketAcl",
             "Resource": "arn:aws:s3:::logexports3bucketdemo"
@@ -14,7 +14,7 @@
             "Sid": "uploadlogs",
             "Effect": "Allow",
             "Principal": {
-                "Service": "logs.us-east-1.amazonaws.com"
+                "Service": "logs.ap-south-1.amazonaws.com"
             },
             "Action": "s3:PutObject",
             "Resource": "arn:aws:s3:::logexports3bucketdemo/*"
