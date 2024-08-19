@@ -1,0 +1,11 @@
+{
+  "Comment": "State machine to schedule log export Lambda function",
+  "StartAt": "ExportLogs",
+  "States": {
+    "ExportLogs": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:REGION:ACCOUNT_ID:function:YourLambdaFunctionName",
+      "End": true
+    }
+  }
+}
