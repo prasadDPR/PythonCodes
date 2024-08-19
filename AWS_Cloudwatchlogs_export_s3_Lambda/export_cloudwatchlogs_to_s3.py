@@ -4,9 +4,9 @@ import datetime
 
 
 
-GROUP_NAME = "aws/lambda/applicationlambda"
-DESTINATION_BUCKET = "logexportbucketdemo"
-PREFIX = "CloudQuickLabs"
+GROUP_NAME = "/aws/lambda/export-s3-bucket"
+DESTINATION_BUCKET = "logexports3bucketdemo"
+PREFIX = "CloudExportLogs"
 NDAYS = 0
 nDays = int(NDAYS)
 
